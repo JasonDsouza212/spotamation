@@ -1,0 +1,14 @@
+.slider_part {
+  display: flex;
+  margin-top: 20px;
+}
+.slider_part_heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slider_part_description {
+  font-size: 14px;
+  font-weight: 100;
+  color: #000000;
+}

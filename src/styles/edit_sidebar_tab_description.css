@@ -1,0 +1,16 @@
+.description_ul li {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.description_ul > .none_blockquote {
+  list-style: outside;
+}
+
+.edit_sidebar_tab_description {
+  padding: 20px;
+}
+
+.description_img {
+  width: 100%;
+}

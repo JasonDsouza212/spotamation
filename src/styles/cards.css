@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card_content_title {
+  font-size: 18px;
+}
+
+.card_content_description {
+  font-size: 14px;
+}

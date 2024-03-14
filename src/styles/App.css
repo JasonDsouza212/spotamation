@@ -1,0 +1,84 @@
+@import url("./index.css");
+@import url("./navbar.css");
+@import url("./banner.css");
+@import url("./tabs.css");
+@import url("./cards.css");
+@import url("./edit_sidebar_tab_description.css");
+@import url("./drawer.css");
+@import url("./review_automation.css");
+@import url("./edit_sidebar_tab_additional_data.css");
+@import url("../styles/assign_tags_automation.css");
+@import url("./edit_automation_tab.css");
+@import url("./automation_cards_all");
+
+:root {
+  --grey-var: rgb(226, 223, 223);
+}
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  max-height: 100%;
+  text-transform: none;
+}
+
+hr {
+  color: var(--grey-var);
+}
+
+.blockquote {
+  margin-left: 20px;
+}
+
+.loading {
+  display: flex;
+  position: relative;
+  top: 30px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.delete_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.delete_btn button {
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.delete_btn button:hover {
+  scale: 1.1;
+  color: rgb(233, 111, 111);
+}
+
+.delete_icon {
+  position: relative;
+  top: 2px;
+}
+
+.small_description {
+  font-size: 14px;
+}
+
+.all_last_screen_btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.all_last_screen_btn > .create_automation_trigger_btn button {
+  width: 280px;
+}
+
+.active_automations {
+  padding: 20px;
+}

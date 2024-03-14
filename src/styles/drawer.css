@@ -1,0 +1,31 @@
+.drawer_contents {
+  max-height: 100%;
+}
+.drawar_title_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.drawar_title {
+  font-weight: 500;
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px;
+}
+
+.btn_setup_sec {
+  display: flex;
+  gap: 5px;
+}
+.btn_setup_sec {
+  display: flex;
+  gap: 5px;
+}
+
+.setup_sec_icon {
+  position: relative;
+
+  top: 2px;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--grey-var);
+}
+.company_logo {
+  border-right: 0.5px solid var(--grey-var);
+  height: 55px;
+  width: 55px;
+}
+
+.company_details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px;
+}
+.user_profile_img {
+  height: 55px;
+  width: 55px;
+  border-radius: 20%;
+}
+
+.dropdown {
+  height: 40px;
+}

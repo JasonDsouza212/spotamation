@@ -1,0 +1,12 @@
+.tabs {
+  border-bottom: 1px solid var(--grey-var);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* .tab_btn:hover {
+  background-color: #becaf8;
+  scale: 1.03;
+} */

@@ -1,0 +1,6 @@
+.automation_cards_all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
