@@ -7,7 +7,7 @@ import ReactMarkdown from "react-markdown";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { gloabalcontext } from "../../App.js";
 
-const EditSidebarTabReviewAutomation = ({ card }) => {
+const EditSidebarTabReviewAutomation = ({ card, isactive }) => {
   const { setPayload, payload } = useContext(gloabalcontext);
   return (
     <div className="review_automation">

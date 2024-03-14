@@ -48,7 +48,7 @@ const EditAutomationTabs = ({ card, isactive }) => {
       {isactive ? (
         <div className="active_automations">
           {" "}
-          <EditSidebarTabReviewAutomation card={card} />
+          <EditSidebarTabReviewAutomation card={card} isactive={isactive} />
         </div>
       ) : (
         <div className="edit_automation_tabs">

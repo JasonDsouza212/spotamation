@@ -268,7 +268,7 @@ function App() {
         {
           icon: doc,
           heading: "**When:** Contract gets created",
-          sentence: `From the contract type : ${
+          sentence: `for the contract type : ${
             payload.contract_type_name ? payload.contract_type_name : "NDA"
           }`,
         },

@@ -6,7 +6,9 @@ const edit_automation = ({ card, isactive }) => {
   return (
     <div>
       <div className="drawar_title_div">
-        <span className="drawar_title">{card.title}</span>
+        <span className="drawar_title">
+          {isactive ? card.fe_solution_name : card.title}
+        </span>
       </div>
       <div>
         <Edit_automation_tabs card={card} isactive={isactive} />
