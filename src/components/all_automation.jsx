@@ -126,8 +126,6 @@ const AllAutomation = () => {
         <div>
           <Loading />
         </div>
-      ) : activeAutomations.length === 0 ? (
-        <p>No active automations</p>
       ) : (
         <div className="automation_cards_all">
           {activeAutomations.map((automation, index) => (
@@ -148,7 +146,9 @@ const AllAutomation = () => {
                   variant="h5"
                   component="div"
                 >
-                  {automation.title}
+                  <div className="automation_name">
+                    {automation.fe_solution_name}
+                  </div>
                 </Typography>
               </CardContent>
               <CardActions className="card_btns delete_btn">
